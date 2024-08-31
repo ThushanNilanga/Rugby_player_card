@@ -21,7 +21,8 @@ class _CardPageState extends State<CardPage> {
         body: Container(
           padding: EdgeInsets.all(Dimensions.height10),
           margin: EdgeInsets.all(Dimensions.height30),
-          child: Center(
+          child:
+          Center(
             child: PageView.builder(
               scrollDirection: Axis.vertical,
               allowImplicitScrolling: true,
